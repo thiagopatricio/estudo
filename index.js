@@ -3,7 +3,7 @@ const express = require('express');
 const app = express()
 
 app.get('/teste'), (req, res) => {
-  return res.json({hello: 'Wolrd'})
+  return res.json({hello: 'Wolrd2'})
 });
 
 app.listen(3333);
